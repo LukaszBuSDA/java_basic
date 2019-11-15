@@ -27,13 +27,13 @@ public class introduction {
 
         double salaryNet = 9150.99;
         int vatTax = 23;
-        System.out.println("Kwota netto:" + salaryNet + "zl");
-        System.out.println("Kwota brutto:" + ( salaryNet + (1 + (vatTax/100.0))) + "zl");
+        System.out.println("Kwota netto: " + salaryNet + "zl");
+        System.out.println("Kwota brutto: " + ( salaryNet * (1 + (vatTax/100.0))) + "zl");
         // formatowanie wyjścia
         // ln -> newline
         System.out.printf("Kwota brutto: %.2f zł\n", salaryNet * (1 + (vatTax/100.0)));
         System.out.printf("%.2fzł netto to %.2fzł brutto\n", salaryNet, salaryNet * (1 + (vatTax / 100.0)));
-        System.out.printf("Liczba: %20.2f\n", salaryNet);
+        System.out.printf("Liczba: %30.2f\n", salaryNet);
 
 
         char smallLetter = 'a';
