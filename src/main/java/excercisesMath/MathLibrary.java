@@ -1,6 +1,4 @@
-package excercises;
-
-import java.util.Scanner;
+package excercisesMath;
 
 public class MathLibrary {
     // 1. zaimplementuj metodę zwracającą średnią wartości

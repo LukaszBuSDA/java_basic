@@ -1,4 +1,4 @@
-package java_variables;
+package variables;
 
 import static java.lang.Math.pow;
 

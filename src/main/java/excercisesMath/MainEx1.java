@@ -1,6 +1,4 @@
-package excercises;
-
-import javax.imageio.ImageTranscoder;
+package excercisesMath;
 
 public class MainEx1 {
     public static void main(String[] args) {

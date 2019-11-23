@@ -1,6 +1,4 @@
-package java_variables;
-
-import java.util.Scanner;
+package variables;
 
 public class Operators {
     public static void main(String[] args) {
